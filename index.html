@@ -2,187 +2,58 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Big Smash !</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet" />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: "Michroma", sans-serif;
-      color: white;
-      background-color: #000;
-    }
-
-    section {
-      padding: 50px 20px;
-      min-height: 100vh;
-      box-sizing: border-box;
-    }
-
-    /* HERO SECTION */
-    .hero-section {
-      background: linear-gradient(to bottom right, rgb(245, 2, 2), rgb(58, 12, 12));
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-    }
-
-    .titre h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    .titre p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-    }
-
-    .burger {
-      flex: 1 1 300px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .burger img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    /* MAP SECTION */
-    .map-section {
-      background-color: rgb(255, 102, 0);
-      text-align: center;
-      color: white;
-    }
-
-    .map-section p {
-      font-size: 1.2rem;
-    }
-
-    .map-section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    .map-section iframe {
-      max-width: 100%;
-      border: solid white 10px;
-    }
-
-    .socials {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .socials img {
-      width: 50px;
-      height: auto;
-    }
-
-    /* ABOUT SECTION */
-    .about-section {
-      background-color: rgb(230, 166, 71);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      color: black;
-      gap: 30px;
-    }
-
-    .about-section p {
-      font-size: 1.2rem;
-      max-width: 800px;
-    }
-
-    .about-section h1 {
-      font-size: 2.5rem;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      .hero-section {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .titre h1 {
-        font-size: 2.2rem;
-      }
-
-      .titre p {
-        font-size: 1rem;
-      }
-
-      .about-section h1 {
-        font-size: 2rem;
-      }
-
-      .about-section p {
-        font-size: 1rem;
-      }
-
-      iframe {
-        height: 300px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <title>My Big Smash !</title>
 </head>
 
 <body>
+    <section class="hero-section">
+        <div class="titre">
+            <h1>BURGER <br>SUPER <br>SMASH</h1>
+            <p>The best burger...for sure !</p1>
+        </div>
+        <div class="burger">
+            <img src="images/burger.png" alt="Burger">
+        </div>
 
-  <section class="hero-section">
-    <div class="titre">
-      <h1>BURGER <br>SUPER <br>SMASH</h1>
-      <p>The best burger...for sure !</p>
-    </div>
-    <div class="burger">
-      <img src="images/burger.png" alt="Burger">
-    </div>
-  </section>
+    </section>
+    <section class="map-section">
+        <p>The best burger...for sure !</p>
+        <h2>Rendez-vous à Matabiau !</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.7966815395007!2d1.4515806999999998!3d43.6107748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebd74e1e35b47%3A0xa7b39b620190f4ef!2sBig%20Smash%20Toulouse%20-%20Matabiau!5e0!3m2!1sfr!2sfr!4v1750867291583!5m2!1sfr!2sfr"
+            width="600" height="450" style="border: solid white 20px" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="socials">
+            <a href="https://www.instagram.com/bigsmashfrance/?hl=fr" , target="_blank"><img
+                    src="images/logo-insta-noir-removebg-preview.png" alt="logo-insta"></a>
+            <a href="https://www.snapchat.com/add/bigsmashfrance" , target="_blank"><img src="images/logo-snap-2.webp"
+                    alt="logo-snap"></a>
+            <a href="https://www.tiktok.com/@bigsmashfrance" , target="_blank"><img src="images/tikto-ts.webp"
+                    alt="logo-tiktok"></a>
+        </div>
 
-  <section class="map-section">
-    <p>The best burger...for sure !</p>
-    <h2>Rendez-vous à Matabiau !</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.7966815395007!2d1.4515806999999998!3d43.6107748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebd74e1e35b47%3A0xa7b39b620190f4ef!2sBig%20Smash%20Toulouse%20-%20Matabiau!5e0!3m2!1sfr!2sfr!4v1750867291583!5m2!1sfr!2sfr"
-      width="600" height="450" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="about-section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi utaliquip ex eacommodo consequat.</p>
+        <div class="titre">
+            <h1>BURGER SUPER SMASH</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
 
-    <div class="socials">
-      <a href="https://www.instagram.com/bigsmashfrance/?hl=fr" target="_blank">
-        <img src="images/logo-insta-noir-removebg-preview.png" alt="logo-insta">
-      </a>
-      <a href="https://www.snapchat.com/add/bigsmashfrance" target="_blank">
-        <img src="images/logo-snap-2.webp" alt="logo-snap">
-      </a>
-      <a href="https://www.tiktok.com/@bigsmashfrance" target="_blank">
-        <img src="images/tikto-ts.webp" alt="logo-tiktok">
-      </a>
-    </div>
-  </section>
-
-  <section class="about-section">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-    <div class="titre">
-      <h1>BURGER SUPER SMASH</h1>
-    </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-  </section>
+    </section>
 
 </body>
+
 
 </html>
