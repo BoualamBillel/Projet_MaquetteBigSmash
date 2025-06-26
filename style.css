@@ -153,3 +153,26 @@ h2 {
     height: 300px;
   }
 }
+
+@media (max-width: 480px) {
+  .titre {
+    font-size: 1.5rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .about-section .titre h1 {
+    font-size: 1.5rem;
+  }
+
+  .socials img {
+    width: 40px;
+  }
+}
