@@ -8,7 +8,9 @@ body {
     background: linear-gradient(to bottom right, rgb(245, 2, 2), rgb(58, 12, 12));
     margin: 0px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow:  row wrap;
+    align-items: center;
+
 
     padding-left: 50px;
     padding-right: 50px;
@@ -30,6 +32,8 @@ body {
     padding-top: 50px;
     align-content: center;
     flex-flow: row wrap;
+    font-size: 40px;
+    
 
 }
 
@@ -81,4 +85,9 @@ p {
     background: #e0e0e0;
     padding: 20px;
     margin: 4px;
+}
+
+.socials{
+    display: flex;
+
 }
