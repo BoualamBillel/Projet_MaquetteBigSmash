@@ -93,7 +93,7 @@ h1, h2 {
   justify-content: center;
   text-align: left;
   gap: 30px;
-  color: black;
+  color: white;
   flex-wrap: wrap;
   padding: 50px;
 }
