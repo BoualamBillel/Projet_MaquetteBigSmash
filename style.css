@@ -134,7 +134,7 @@ h2 {
   }
 
   .burger {
-    order: -1;
+    order: 1;
   }
 
   .titre {
