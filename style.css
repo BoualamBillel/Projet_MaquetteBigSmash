@@ -3,6 +3,7 @@ body {
   font-family: "Michroma", sans-serif;
   color: white;
   box-sizing: border-box;
+  z-index: 10000;
 }
 
 section {
@@ -27,6 +28,21 @@ h2 {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  padding-left: 7em;
+}
+
+.oignon1{
+  position: absolute;
+  bottom: 47em;
+  left: 2em;
+  z-index: 1;
+}
+
+.oignon2{
+  position: absolute;
+  right: 12em;
+  bottom: -2em;
+  z-index: 1;
 }
 
 .titre {
@@ -44,6 +60,7 @@ h2 {
   justify-content: center;
   position: relative;
   right: 0;
+  z-index: 100;
 }
 
 .hero-section img {
@@ -141,6 +158,16 @@ h2 {
     font-size: 2rem;
   }
 
+  .oignon1 {
+    position: absolute;
+    bottom: 17em;
+    left: 1em;
+  }
+
+  .oignon2 {
+    right: -6em;
+  }
+
   .about-section p,
   .map-section p {
     font-size: 1rem;
@@ -152,6 +179,10 @@ h2 {
 
   .map-section iframe {
     height: 300px;
+  }
+
+  section{
+    z-index: 1000;
   }
 }
 
@@ -175,5 +206,9 @@ h2 {
 
   .socials img {
     width: 40px;
+  }
+
+  .oignon1, .oignon2 {
+    display: none;
   }
 }
