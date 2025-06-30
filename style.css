@@ -141,6 +141,7 @@ h2 {
   .hero-section {
     flex-direction: column;
     text-align: center;
+    padding-left: 0;
   }
 
   .about-section {
