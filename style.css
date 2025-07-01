@@ -80,6 +80,10 @@ h2 {
   color: white;
 }
 
+iframe {
+  width: 100%;
+}
+
 .map-section iframe {
   width: 100%;
   max-width: 600px;
@@ -210,6 +214,6 @@ h2 {
   }
 
   .oignon1, .oignon2 {
-    display: none;
+    
   }
 }
