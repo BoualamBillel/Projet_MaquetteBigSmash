@@ -215,5 +215,7 @@ iframe {
   }
 
   .oignon1,
-  .oignon2 {}
+  .oignon2 {
+    display: none;
+  }
 }
